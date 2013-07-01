@@ -1,0 +1,15 @@
+﻿@model GreatAmericanSolrTracker.Web.DisplayModels.QueryDisplay
+
+@using (Html.BeginForm("Query", "Home", new { solrCore = Model.SolrCore.Id }, FormMethod.Get, new { @class="form-search"}))
+{
+    <div class="input-append">
+        @Html.TextBox("queryString", "", new { @class = "span10 search-query" })
+        <button type="submit" class="btn">Search</button>
+    </div>
+}
+
+<div class="span10">
+    <pre class="prettyprint linenums languague-js">
+    @Model.QueryResults
+    </pre>
+</div>

@@ -1,0 +1,68 @@
+﻿@using Combres.Mvc
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@Url.CombresLink("Home_IndexJs")
+<script src="/signalr/hubs"></script>
+
+<div id="error" class="validation-summary-errors">
+</div>
+
+<h2> Add Core Tracker</h2>
+<form action="" data-bind="submit: addSolrCore" class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label" for="coreName">Core Alias</label>
+        <div class="controls">
+            <input id="coreName" type="text" class="input-xlarge" data-bind="value: newSolrCoreText" placeholder="Your name for the core"/><br/>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="baseUrl">Base Url</label>
+        <div class="controls">
+            <input id="baseUrl" type="text" class="input-xlarge" data-bind="value: newSolrCoreBaseUrl" placeholder="The core's base url"/><br/>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <input class="btn btn-primary" type="submit" value="Add Solr Core"/>
+        </div>
+    </div>
+</form>
+
+<h2>All Solr Cores</h2>
+
+<table id="coreTable" class="table table-hover table-condensed" >
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>BaseUrl</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody data-bind="template: { name: 'solrCoreTemplate', foreach: solrCores }, visible: solrCores().length > 0, attr: { 'class': listCssClass }">
+    </tbody>
+</table>
+
+<script type="text/html" id="solrCoreTemplate">
+    <tr style="list-style-image: url('/Content/images/task.png')" data-bind="attr: { 'data-ref': Id, 'class': StatusRowClass }">
+        <td><input class="input-xlarge" data-bind="value: Title" /></td>
+        <td><input class="input-xlarge" data-bind="value: BaseUrl" /></td>
+        <td><span rel="tooltip" data-placement="top" data-bind="
+            text: Status().StatusName, 
+            attr: { 
+                'data-original-title': Status().StatusAlt, 
+                'class': StatusTooltipCssClass 
+            }"></span></td>
+        <td><a class="btn btn-mini" href="#" data-bind="click: remove">Remove</a> /
+            <a href="#" class="btn btn-mini" data-bind="
+                click: reindex, 
+                disableClick: DisableIndexing()">Reindex</a> /
+            <a href="#" class="btn btn-mini" data-bind="
+                click: abort, 
+                disableClick: DisableAbort()">Abort</a> /
+            <a href="#" class="btn btn-mini" data-bind="click: query">Query</a>
+        </td>
+    </tr>
+</script>

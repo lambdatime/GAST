@@ -1,0 +1,42 @@
+<Modules>
+  <Module PersistentId="E4C472F7-7954-4015-8A03-157B5BCAEA99" ModuleId="MvcApplication1" />
+  <Module PersistentId="AjaxMin, Version=4.48.4489.28432, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f" ModuleId="AjaxMin" />
+  <Module PersistentId="Combres, Version=2.2.2.6, Culture=neutral, PublicKeyToken=1ca6b37997dd7536" ModuleId="Combres" />
+  <Module PersistentId="Combres.Mvc, Version=2.2.2.6, Culture=neutral, PublicKeyToken=1ca6b37997dd7536" ModuleId="Combres.Mvc" />
+  <Module PersistentId="dotless.Core, Version=1.3.0.2, Culture=neutral, PublicKeyToken=96b446c9e63eae34" ModuleId="dotless.Core" />
+  <Module PersistentId="EcmaScript.NET.modified, Version=0.1.1.0, Culture=neutral, PublicKeyToken=7d53ba4f537753a5" ModuleId="EcmaScript.NET.modified" />
+  <Module PersistentId="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="EntityFramework" />
+  <Module PersistentId="Fasterflect, Version=2.1.0.8328, Culture=neutral, PublicKeyToken=38d18473284c1ca7" ModuleId="Fasterflect" />
+  <Module PersistentId="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a" ModuleId="log4net" />
+  <Module PersistentId="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Microsoft.CSharp" />
+  <Module PersistentId="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="Microsoft.Web.Infrastructure" />
+  <Module PersistentId="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed" ModuleId="Newtonsoft.Json" />
+  <Module PersistentId="SignalR, Version=0.5.1.10822, Culture=neutral, PublicKeyToken=null" ModuleId="SignalR" />
+  <Module PersistentId="SignalR.Hosting.AspNet, Version=0.5.1.10822, Culture=neutral, PublicKeyToken=null" ModuleId="SignalR.Hosting.AspNet" />
+  <Module PersistentId="SignalR.Hosting.Common, Version=0.5.1.10822, Culture=neutral, PublicKeyToken=null" ModuleId="SignalR.Hosting.Common" />
+  <Module PersistentId="System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.Entity" />
+  <Module PersistentId="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc" />
+  <Module PersistentId="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.WebPages" />
+  <Module PersistentId="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Helpers" />
+  <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System" />
+  <Module PersistentId="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data" />
+  <Module PersistentId="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Drawing" />
+  <Module PersistentId="System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.DynamicData" />
+  <Module PersistentId="System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Web.Entity" />
+  <Module PersistentId="System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.ApplicationServices" />
+  <Module PersistentId="System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.ComponentModel.DataAnnotations" />
+  <Module PersistentId="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Core" />
+  <Module PersistentId="System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.DataSetExtensions" />
+  <Module PersistentId="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml.Linq" />
+  <Module PersistentId="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web" />
+  <Module PersistentId="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Extensions" />
+  <Module PersistentId="System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Abstractions" />
+  <Module PersistentId="System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Routing" />
+  <Module PersistentId="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml" />
+  <Module PersistentId="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Configuration" />
+  <Module PersistentId="System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web.Services" />
+  <Module PersistentId="System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.EnterpriseServices" />
+  <Module PersistentId="WebActivator, Version=1.4.4.0, Culture=neutral, PublicKeyToken=null" ModuleId="WebActivator" />
+  <Module PersistentId="Yahoo.Yui.Compressor, Version=1.7.1.0, Culture=neutral, PublicKeyToken=f8b4b81ec75097e2" ModuleId="Yahoo.Yui.Compressor" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
+</Modules>
